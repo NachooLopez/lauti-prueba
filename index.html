@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta de satisfacción</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <section id="paginaEncuesta">
+      <section class="encabezadoForm">
+        <h2>Encuesta de satisfacción</h2>
+        <p>
+          Estimado, mediante el siguiente formulario le solicitamos que nos
+          responda algunas preguntas para saber su nivel de satisfacción con
+          nuestra atención y ver en que aspectos mejorar para futuras
+          atenciones.
+        </p>
+      </section>
+
+      <form id="encuestaForm">
+        <p>
+          1. ¿Cuál es su grado de satisfacción con la atención recibida con
+          nuestra central de operaciones?
+        </p>
+        <label>
+          <input type="radio" name="satisfaccionCentral" value="1" /> 1
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionCentral" value="2" /> 2
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionCentral" value="3" /> 3
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionCentral" value="4" /> 4
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionCentral" value="5" /> 5
+        </label>
+
+        <p>
+          2. ¿Cuál es su grado de satisfacción con la atención recibida por
+          parte de nuestro proveedor?
+        </p>
+        <label>
+          <input type="radio" name="satisfaccionProveedor" value="1" /> 1
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionProveedor" value="2" /> 2
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionProveedor" value="3" /> 3
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionProveedor" value="4" /> 4
+        </label>
+        <label>
+          <input type="radio" name="satisfaccionProveedor" value="5" /> 5
+        </label>
+
+        <p>3. ¿Recomendaría nuestro servicio?</p>
+        <label>
+          <input type="radio" name="recomendarServicio" value="si" /> Sí
+        </label>
+        <label>
+          <input type="radio" name="recomendarServicio" value="no" /> No
+        </label>
+        <br />
+        <br />
+        <button id="enviarEncuesta" type="button">Enviar encuesta</button>
+      </form>
+    </section>
+
+    <section id="agradecimiento">
+      <h3>GRACIAS</h3>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

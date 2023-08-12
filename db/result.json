@@ -1,0 +1,14 @@
+[
+  {
+    "ticketId": "121",
+    "satisfaccionCentral": "4",
+    "satisfaccionProveedor": "2",
+    "recomendarServicio": "no"
+  },
+  {
+    "ticketId": "122",
+    "satisfaccionCentral": "1",
+    "satisfaccionProveedor": "4",
+    "recomendarServicio": "si"
+  }
+]
